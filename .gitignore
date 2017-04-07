@@ -1,0 +1,44 @@
+<?php
+
+
+/// variable chooses a number between 1 and 6
+$dice = rand(1,6);
+
+///these are the images that will be displayed when the number is defined
+$showimage1 = "ThisPC/pictures/numbers/1.jpg"
+$showimage2 = "ThisPC/pictures/numbers/2.jpg"
+$showimage3 = "ThisPC/pictures/numbers/3.jpg"
+$showimage4 = "ThisPC/pictures/numbers/4.jpg"
+$showimage5 = "ThisPC/pictures/numbers/5.jpg"
+$showimage6 = "ThisPC/pictures/numbers/6.jpg"
+
+/// this display the dice 
+echo $dice;
+
+///if the number is 1, the corrsponding image will appear
+if ($dice = 1)
+        <img src="<?php echo $showimage; ?>" />
+        
+///if the number is 2, the corrsponding image will appear    
+if ($dice = 2)
+        <img src="<?php echo $showimage; ?>" />   
+    
+///if the number is 3, the corrsponding image will appear
+if ($dice = 3)
+        <img src="<?php echo $showimage; ?>" />
+        
+///if the number is 4, the corrsponding image will appear  
+if ($dice = 4)
+        <img src="<?php echo $showimage; ?>" /> 
+
+///if the number is 5, the corrsponding image will appear
+
+if ($dice = 5)
+        <img src="<?php echo $showimage; ?>" />
+
+///if the number is 6, the corrsponding image will appear
+        
+if ($dice = 6)
+        <img src="<?php echo $showimage; ?>" /> 
+  
+  
